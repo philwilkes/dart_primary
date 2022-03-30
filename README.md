@@ -1,8 +1,12 @@
 # Code and examples for running DART at Wytham Woods
 
+![download](https://user-images.githubusercontent.com/16801450/160836389-9889a4e7-09a1-4271-9103-5db734824447.png)
+![download](https://user-images.githubusercontent.com/16801450/160836468-dc509adb-5270-4ead-a1fd-85909801a96e.png)
+
 This repository presents code and examples for running DART to simulate surface reflectance at Wytham Woods. 
 
-DART access and licencing can be found on the [DART](https://dart.omp.eu/#/) website.
+DART access and licencing can be found on the [DART](https://dart.omp.eu/#/) website.![Uploading download.png…]()
+
 
 The work package makes extensive use of the 3D models presented in [Realistic Forest Stand Reconstruction from Terrestrial LiDAR for Radiative Transfer Modelling](https://www.mdpi.com/2072-4292/10/6/933/htm) and [Chang Li](https://www.ugent.be/bw/environment/en/research/cavelab/contact/liu-chang)'s conversion of the models to `.obj` format (available from `add-DART` branch on the [wytham-woods-3d-model](https://bitbucket.org/tree_research/wytham_woods_3d_model/src/add_dart/) BitBucket). The Wytham.db sepctral database (in `DART_models/3D-explicit model/Spec/Wytham.db` of the repository) is also required to run the simulations. 
 
