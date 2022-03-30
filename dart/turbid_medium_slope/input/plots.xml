@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DartFile build="v1203" version="5.7.11">
+    <Plots addExtraPlotsTextFile="0" isVegetation="0">
+        <ImportationFichierRaster/>
+        <Plot form="0" hidden="0" isDisplayed="1" repeatedOnBorder="1" type="1">
+            <PlotVegetationProperties densityDefinition="0"
+                trianglePlotRepresentation="1" verticalFillMode="0">
+                <VegetationGeometry baseheight="0" height="30" stDev="0.0"/>
+                <LAIVegetation LAI="3.8"/>
+                <VegetationOpticalPropertyLink ident="leaf_NA_turbid" indexFctPhase="8"/>
+                <GroundThermalPropertyLink
+                    idTemperature="ThermalFunction290_310" indexTemperature="0"/>
+                <MeshPlotRepresentation distributionMode="0" leafDefinition="1">
+                    <MeshLeafDimensionParameters meshLeafDimension="0.02"/>
+                </MeshPlotRepresentation>
+            </PlotVegetationProperties>
+            <Polygon2D>
+                <Point2D x="0.00" y="0.00"/>
+                <Point2D x="100" y="0"/>
+                <Point2D x="100" y="100"/>
+                <Point2D x="0" y="100"/>
+            </Polygon2D>
+        </Plot>
+    </Plots>
+</DartFile>

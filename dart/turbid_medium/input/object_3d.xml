@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DartFile build="v1203" version="5.7.11">
+    <object_3d generateTriangleFileXML="0">
+        <Types>
+            <DefaultTypes>
+                <DefaultType indexOT="101" name="Default_Object" typeColor="125 0 125"/>
+                <DefaultType indexOT="102" name="Leaf" typeColor="0 175 0"/>
+                <DefaultType indexOT="103" name="Trunk" typeColor="71 55 25"/>
+            </DefaultTypes>
+            <CustomTypes/>
+        </Types>
+        <ObjectList/>
+        <ObjectFields/>
+    </object_3d>
+</DartFile>
