@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DartParameterExceptions>
+    <DartParameterException>
+        <Origin>
+            <Name>object_3d.ObjectFields.Field.ModelList.Object.Groups.Group.GroupOpticalProperties.OpticalPropertyLink.ident</Name>
+            <Label>Optical property name                          </Label>
+            <Description>proportion of photons intercepted along an incident direction that are scattered within a solid angle along a given direction</Description>
+        </Origin>
+        <Message>
+            <OriginMessage>Phase Function 'OpticalProperty' not found !</OriginMessage>
+        </Message>
+    </DartParameterException>
+    <DartParameterException>
+        <Origin>
+            <Name>object_3d.ObjectFields.Field.ModelList.Object.Groups.Group.GroupOpticalProperties.BackFaceOpticalProperty.OpticalPropertyLink.ident</Name>
+            <Label>Optical property name                          </Label>
+            <Description>proportion of photons intercepted along an incident direction that are scattered within a solid angle along a given direction</Description>
+        </Origin>
+        <Message>
+            <OriginMessage>Phase Function 'BackFaceOpticalProperty' not found !</OriginMessage>
+        </Message>
+    </DartParameterException>
+    <DartParameterException>
+        <Origin>
+            <Name>object_3d.ObjectFields.Field.ModelList.Object.Groups.Group.GroupOpticalProperties.OpticalPropertyLink.ident</Name>
+            <Label>Optical property name                          </Label>
+            <Description>proportion of photons intercepted along an incident direction that are scattered within a solid angle along a given direction</Description>
+        </Origin>
+        <Message>
+            <OriginMessage>Phase Function 'OpticalProperty' not found !</OriginMessage>
+        </Message>
+    </DartParameterException>
+    <DartParameterException>
+        <Origin>
+            <Name>object_3d.ObjectFields.Field.ModelList.Object.Groups.Group.GroupOpticalProperties.BackFaceOpticalProperty.OpticalPropertyLink.ident</Name>
+            <Label>Optical property name                          </Label>
+            <Description>proportion of photons intercepted along an incident direction that are scattered within a solid angle along a given direction</Description>
+        </Origin>
+        <Message>
+            <OriginMessage>Phase Function 'BackFaceOpticalProperty' not found !</OriginMessage>
+        </Message>
+    </DartParameterException>
+</DartParameterExceptions>

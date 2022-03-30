@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DartFile build="v1203" version="5.7.11">
+    <Phase calculatorMethod="0">
+        <AtmosphereRadiativeTransfer TOAtoBOA="0"/>
+        <ExpertModeZone accelerationEngine="2" albedoThreshold="1E-3"
+            distanceBetweenIlluminationSubCenters="0.1" expertMode="1"
+            illuminationRepartitionMode="2"
+            isInterceptedPowerPerDirectionForSpecularCheck="0"
+            lightPropagationThreshold="1E-7" maxNbSceneCrossing="1000"
+            nbRandomPointsPerInteceptionAtmosphere="1"
+            nbSubSubcenterTurbidEmission="40" nbSubcenterVolume="2"
+            nbThreads="4" nbTrianglesWithinVoxelAcceleration="10"
+            sparseVoxelAcceleration="1" subFaceBarycenterEnabled="1"
+            subFaceBarycenterSubdivision="1"
+            surfaceBarycenterEnabled="1"
+            thermalEmissionSurfaceSubdivision="0.01"
+            triangleStorageMode="0" useExternalScripts="0">
+            <LuxCoreRenderEngineParameters
+                atmosphericRadiativeTransfer="0"
+                maximumRenderingTime="60" nbSceneRepetition="2"
+                periodicSave="20" pixelSize="10"
+                russianRouletteEnable="0" sampler="1" targetRayDensityPerPixel="50">
+                <SamplerProperties adaptativeStrength="0.0"/>
+            </LuxCoreRenderEngineParameters>
+        </ExpertModeZone>
+        <DartInputParameters>
+            <nodefluxtracking gaussSiedelAcceleratingTechnique="0" numberOfIteration="5"/>
+            <SpectralDomainTir temperatureMode="0">
+                <skylTemperature SKYLForTemperatureAssignation="0.0"
+                    distanceBetweenIlluminationSubCenters="0.1" histogramThreshold="5.0"/>
+            </SpectralDomainTir>
+            <SpectralIntervals>
+                <SpectralIntervalsProperties bandNumber="0"
+                    deltaLambda="0.05" meanLambda="0.40525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="1"
+                    deltaLambda="0.05" meanLambda="0.41575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="2"
+                    deltaLambda="0.05" meanLambda="0.42625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="3"
+                    deltaLambda="0.05" meanLambda="0.43675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="4"
+                    deltaLambda="0.05" meanLambda="0.44725000000000004" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="5"
+                    deltaLambda="0.05" meanLambda="0.45775000000000005" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="6"
+                    deltaLambda="0.05" meanLambda="0.46825000000000006" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="7"
+                    deltaLambda="0.05" meanLambda="0.47875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="8"
+                    deltaLambda="0.05" meanLambda="0.48925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="9"
+                    deltaLambda="0.05" meanLambda="0.49975" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="10"
+                    deltaLambda="0.05" meanLambda="0.51025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="11"
+                    deltaLambda="0.05" meanLambda="0.52075" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="12"
+                    deltaLambda="0.05" meanLambda="0.53125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="13"
+                    deltaLambda="0.05" meanLambda="0.5417500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="14"
+                    deltaLambda="0.05" meanLambda="0.55225" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="15"
+                    deltaLambda="0.05" meanLambda="0.5627500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="16"
+                    deltaLambda="0.05" meanLambda="0.57325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="17"
+                    deltaLambda="0.05" meanLambda="0.58375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="18"
+                    deltaLambda="0.05" meanLambda="0.5942500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="19"
+                    deltaLambda="0.05" meanLambda="0.60475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="20"
+                    deltaLambda="0.05" meanLambda="0.6152500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="21"
+                    deltaLambda="0.05" meanLambda="0.62575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="22"
+                    deltaLambda="0.05" meanLambda="0.63625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="23"
+                    deltaLambda="0.05" meanLambda="0.64675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="24"
+                    deltaLambda="0.05" meanLambda="0.6572500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="25"
+                    deltaLambda="0.05" meanLambda="0.6677500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="26"
+                    deltaLambda="0.05" meanLambda="0.67825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="27"
+                    deltaLambda="0.05" meanLambda="0.68875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="28"
+                    deltaLambda="0.05" meanLambda="0.69925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="29"
+                    deltaLambda="0.05" meanLambda="0.7097500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="30"
+                    deltaLambda="0.05" meanLambda="0.7202500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="31"
+                    deltaLambda="0.05" meanLambda="0.73075" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="32"
+                    deltaLambda="0.05" meanLambda="0.74125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="33"
+                    deltaLambda="0.05" meanLambda="0.75175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="34"
+                    deltaLambda="0.05" meanLambda="0.7622500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="35"
+                    deltaLambda="0.05" meanLambda="0.77275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="36"
+                    deltaLambda="0.05" meanLambda="0.78325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="37"
+                    deltaLambda="0.05" meanLambda="0.7937500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="38"
+                    deltaLambda="0.05" meanLambda="0.80425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="39"
+                    deltaLambda="0.05" meanLambda="0.8147500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="40"
+                    deltaLambda="0.05" meanLambda="0.82525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="41"
+                    deltaLambda="0.05" meanLambda="0.83575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="42"
+                    deltaLambda="0.05" meanLambda="0.8462500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="43"
+                    deltaLambda="0.05" meanLambda="0.8567500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="44"
+                    deltaLambda="0.05" meanLambda="0.8672500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="45"
+                    deltaLambda="0.05" meanLambda="0.87775" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="46"
+                    deltaLambda="0.05" meanLambda="0.88825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="47"
+                    deltaLambda="0.05" meanLambda="0.89875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="48"
+                    deltaLambda="0.05" meanLambda="0.90925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="49"
+                    deltaLambda="0.05" meanLambda="0.9197500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="50"
+                    deltaLambda="0.05" meanLambda="0.93025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="51"
+                    deltaLambda="0.05" meanLambda="0.9407500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="52"
+                    deltaLambda="0.05" meanLambda="0.95125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="53"
+                    deltaLambda="0.05" meanLambda="0.9617500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="54"
+                    deltaLambda="0.05" meanLambda="0.9722500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="55"
+                    deltaLambda="0.05" meanLambda="0.98275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="56"
+                    deltaLambda="0.05" meanLambda="0.9932500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="57"
+                    deltaLambda="0.05" meanLambda="1.0037500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="58"
+                    deltaLambda="0.05" meanLambda="1.01425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="59"
+                    deltaLambda="0.05" meanLambda="1.02475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="60"
+                    deltaLambda="0.05" meanLambda="1.03525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="61"
+                    deltaLambda="0.05" meanLambda="1.04575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="62"
+                    deltaLambda="0.05" meanLambda="1.05625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="63"
+                    deltaLambda="0.05" meanLambda="1.06675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="64"
+                    deltaLambda="0.05" meanLambda="1.07725" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="65"
+                    deltaLambda="0.05" meanLambda="1.0877500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="66"
+                    deltaLambda="0.05" meanLambda="1.0982500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="67"
+                    deltaLambda="0.05" meanLambda="1.1087500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="68"
+                    deltaLambda="0.05" meanLambda="1.11925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="69"
+                    deltaLambda="0.05" meanLambda="1.12975" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="70"
+                    deltaLambda="0.05" meanLambda="1.14025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="71"
+                    deltaLambda="0.05" meanLambda="1.15075" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="72"
+                    deltaLambda="0.05" meanLambda="1.1612500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="73"
+                    deltaLambda="0.05" meanLambda="1.17175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="74"
+                    deltaLambda="0.05" meanLambda="1.18225" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="75"
+                    deltaLambda="0.05" meanLambda="1.1927500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="76"
+                    deltaLambda="0.05" meanLambda="1.2032500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="77"
+                    deltaLambda="0.05" meanLambda="1.21375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="78"
+                    deltaLambda="0.05" meanLambda="1.22425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="79"
+                    deltaLambda="0.05" meanLambda="1.23475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="80"
+                    deltaLambda="0.05" meanLambda="1.24525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="81"
+                    deltaLambda="0.05" meanLambda="1.25575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="82"
+                    deltaLambda="0.05" meanLambda="1.26625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="83"
+                    deltaLambda="0.05" meanLambda="1.27675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="84"
+                    deltaLambda="0.05" meanLambda="1.2872500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="85"
+                    deltaLambda="0.05" meanLambda="1.2977500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="86"
+                    deltaLambda="0.05" meanLambda="1.3082500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="87"
+                    deltaLambda="0.05" meanLambda="1.31875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="88"
+                    deltaLambda="0.05" meanLambda="1.32925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="89"
+                    deltaLambda="0.05" meanLambda="1.33975" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="90"
+                    deltaLambda="0.05" meanLambda="1.35025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="91"
+                    deltaLambda="0.05" meanLambda="1.3607500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="92"
+                    deltaLambda="0.05" meanLambda="1.37125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="93"
+                    deltaLambda="0.05" meanLambda="1.38175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="94"
+                    deltaLambda="0.05" meanLambda="1.3922500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="95"
+                    deltaLambda="0.05" meanLambda="1.4027500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="96"
+                    deltaLambda="0.05" meanLambda="1.4132500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="97"
+                    deltaLambda="0.05" meanLambda="1.42375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="98"
+                    deltaLambda="0.05" meanLambda="1.43425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="99"
+                    deltaLambda="0.05" meanLambda="1.44475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="100"
+                    deltaLambda="0.05" meanLambda="1.45525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="101"
+                    deltaLambda="0.05" meanLambda="1.4657499999999999" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="102"
+                    deltaLambda="0.05" meanLambda="1.4762500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="103"
+                    deltaLambda="0.05" meanLambda="1.4867500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="104"
+                    deltaLambda="0.05" meanLambda="1.4972500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="105"
+                    deltaLambda="0.05" meanLambda="1.5077500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="106"
+                    deltaLambda="0.05" meanLambda="1.51825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="107"
+                    deltaLambda="0.05" meanLambda="1.52875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="108"
+                    deltaLambda="0.05" meanLambda="1.53925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="109"
+                    deltaLambda="0.05" meanLambda="1.54975" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="110"
+                    deltaLambda="0.05" meanLambda="1.56025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="111"
+                    deltaLambda="0.05" meanLambda="1.5707500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="112"
+                    deltaLambda="0.05" meanLambda="1.5812500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="113"
+                    deltaLambda="0.05" meanLambda="1.5917500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="114"
+                    deltaLambda="0.05" meanLambda="1.6022500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="115"
+                    deltaLambda="0.05" meanLambda="1.6127500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="116"
+                    deltaLambda="0.05" meanLambda="1.62325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="117"
+                    deltaLambda="0.05" meanLambda="1.63375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="118"
+                    deltaLambda="0.05" meanLambda="1.64425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="119"
+                    deltaLambda="0.05" meanLambda="1.65475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="120"
+                    deltaLambda="0.05" meanLambda="1.66525" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="121"
+                    deltaLambda="0.05" meanLambda="1.6757500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="122"
+                    deltaLambda="0.05" meanLambda="1.6862500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="123"
+                    deltaLambda="0.05" meanLambda="1.6967500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="124"
+                    deltaLambda="0.05" meanLambda="1.7072500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="125"
+                    deltaLambda="0.05" meanLambda="1.71775" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="126"
+                    deltaLambda="0.05" meanLambda="1.72825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="127"
+                    deltaLambda="0.05" meanLambda="1.73875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="128"
+                    deltaLambda="0.05" meanLambda="1.74925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="129"
+                    deltaLambda="0.05" meanLambda="1.75975" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="130"
+                    deltaLambda="0.05" meanLambda="1.7702500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="131"
+                    deltaLambda="0.05" meanLambda="1.7807500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="132"
+                    deltaLambda="0.05" meanLambda="1.7912500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="133"
+                    deltaLambda="0.05" meanLambda="1.8017500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="134"
+                    deltaLambda="0.05" meanLambda="1.8122500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="135"
+                    deltaLambda="0.05" meanLambda="1.82275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="136"
+                    deltaLambda="0.05" meanLambda="1.83325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="137"
+                    deltaLambda="0.05" meanLambda="1.84375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="138"
+                    deltaLambda="0.05" meanLambda="1.85425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="139"
+                    deltaLambda="0.05" meanLambda="1.86475" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="140"
+                    deltaLambda="0.05" meanLambda="1.8752500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="141"
+                    deltaLambda="0.05" meanLambda="1.8857500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="142"
+                    deltaLambda="0.05" meanLambda="1.8962500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="143"
+                    deltaLambda="0.05" meanLambda="1.9067500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="144"
+                    deltaLambda="0.05" meanLambda="1.9172500000000001" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="145"
+                    deltaLambda="0.05" meanLambda="1.92775" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="146"
+                    deltaLambda="0.05" meanLambda="1.93825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="147"
+                    deltaLambda="0.05" meanLambda="1.94875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="148"
+                    deltaLambda="0.05" meanLambda="1.95925" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="149"
+                    deltaLambda="0.05" meanLambda="1.9697500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="150"
+                    deltaLambda="0.05" meanLambda="1.9802500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="151"
+                    deltaLambda="0.05" meanLambda="1.9907500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="152"
+                    deltaLambda="0.05" meanLambda="2.00125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="153"
+                    deltaLambda="0.05" meanLambda="2.01175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="154"
+                    deltaLambda="0.05" meanLambda="2.02225" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="155"
+                    deltaLambda="0.05" meanLambda="2.03275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="156"
+                    deltaLambda="0.05" meanLambda="2.04325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="157"
+                    deltaLambda="0.05" meanLambda="2.05375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="158"
+                    deltaLambda="0.05" meanLambda="2.06425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="159"
+                    deltaLambda="0.05" meanLambda="2.0747500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="160"
+                    deltaLambda="0.05" meanLambda="2.0852500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="161"
+                    deltaLambda="0.05" meanLambda="2.0957500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="162"
+                    deltaLambda="0.05" meanLambda="2.10625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="163"
+                    deltaLambda="0.05" meanLambda="2.11675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="164"
+                    deltaLambda="0.05" meanLambda="2.12725" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="165"
+                    deltaLambda="0.05" meanLambda="2.13775" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="166"
+                    deltaLambda="0.05" meanLambda="2.14825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="167"
+                    deltaLambda="0.05" meanLambda="2.15875" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="168"
+                    deltaLambda="0.05" meanLambda="2.1692500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="169"
+                    deltaLambda="0.05" meanLambda="2.1797500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="170"
+                    deltaLambda="0.05" meanLambda="2.1902500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="171"
+                    deltaLambda="0.05" meanLambda="2.20075" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="172"
+                    deltaLambda="0.05" meanLambda="2.21125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="173"
+                    deltaLambda="0.05" meanLambda="2.22175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="174"
+                    deltaLambda="0.05" meanLambda="2.23225" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="175"
+                    deltaLambda="0.05" meanLambda="2.24275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="176"
+                    deltaLambda="0.05" meanLambda="2.25325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="177"
+                    deltaLambda="0.05" meanLambda="2.26375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="178"
+                    deltaLambda="0.05" meanLambda="2.2742500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="179"
+                    deltaLambda="0.05" meanLambda="2.2847500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="180"
+                    deltaLambda="0.05" meanLambda="2.2952500000000002" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="181"
+                    deltaLambda="0.05" meanLambda="2.30575" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="182"
+                    deltaLambda="0.05" meanLambda="2.31625" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="183"
+                    deltaLambda="0.05" meanLambda="2.32675" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="184"
+                    deltaLambda="0.05" meanLambda="2.33725" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="185"
+                    deltaLambda="0.05" meanLambda="2.34775" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="186"
+                    deltaLambda="0.05" meanLambda="2.35825" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="187"
+                    deltaLambda="0.05" meanLambda="2.3687500000000004" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="188"
+                    deltaLambda="0.05" meanLambda="2.3792500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="189"
+                    deltaLambda="0.05" meanLambda="2.3897500000000003" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="190"
+                    deltaLambda="0.05" meanLambda="2.40025" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="191"
+                    deltaLambda="0.05" meanLambda="2.41075" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="192"
+                    deltaLambda="0.05" meanLambda="2.42125" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="193"
+                    deltaLambda="0.05" meanLambda="2.43175" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="194"
+                    deltaLambda="0.05" meanLambda="2.44225" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="195"
+                    deltaLambda="0.05" meanLambda="2.45275" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="196"
+                    deltaLambda="0.05" meanLambda="2.46325" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="197"
+                    deltaLambda="0.05" meanLambda="2.47375" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="198"
+                    deltaLambda="0.05" meanLambda="2.48425" spectralDartMode="0"/>
+                <SpectralIntervalsProperties bandNumber="199"
+                    deltaLambda="0.05" meanLambda="2.4947500000000002" spectralDartMode="0"/>
+            </SpectralIntervals>
+            <temperatureAtmosphere atmosphericApparentTemperature="260.0"/>
+            <ImageSideIllumination disableSolarIllumination="0"
+                disableThermalEmission="0" sideIlluminationEnabled="0"/>
+            <nodeIlluminationMode irradianceMode="0">
+                <irradianceDatabaseNode databaseName="Solar_constant.db"
+                    irradianceColumn="irradiance"
+                    irradianceTable="TOASolar_THKUR"
+                    weightAtmosphereParameters="1" weightReflectanceParameters="1">
+                    <WeightingParameters sceneAverageTemperatureForPonderation="300"/>
+                </irradianceDatabaseNode>
+                <SpectralIrradiance>
+                    <CommonParameters commonIrradianceCheckBox="1"
+                        commonSkylCheckBox="1" irraDef="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="0" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="1" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="2" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="3" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="4" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="5" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="6" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="7" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="8" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="9" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="10" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="11" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="12" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="13" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="14" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="15" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="16" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="17" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="18" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="19" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="20" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="21" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="22" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="23" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="24" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="25" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="26" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="27" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="28" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="29" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="30" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="31" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="32" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="33" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="34" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="35" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="36" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="37" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="38" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="39" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="40" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="41" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="42" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="43" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="44" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="45" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="46" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="47" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="48" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="49" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="50" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="51" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="52" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="53" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="54" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="55" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="56" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="57" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="58" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="59" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="60" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="61" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="62" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="63" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="64" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="65" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="66" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="67" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="68" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="69" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="70" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="71" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="72" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="73" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="74" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="75" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="76" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="77" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="78" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="79" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="80" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="81" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="82" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="83" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="84" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="85" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="86" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="87" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="88" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="89" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="90" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="91" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="92" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="93" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="94" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="95" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="96" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="97" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="98" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="99" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="100" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="101" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="102" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="103" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="104" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="105" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="106" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="107" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="108" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="109" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="110" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="111" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="112" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="113" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="114" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="115" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="116" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="117" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="118" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="119" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="120" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="121" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="122" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="123" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="124" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="125" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="126" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="127" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="128" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="129" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="130" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="131" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="132" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="133" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="134" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="135" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="136" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="137" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="138" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="139" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="140" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="141" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="142" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="143" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="144" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="145" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="146" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="147" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="148" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="149" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="150" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="151" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="152" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="153" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="154" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="155" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="156" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="157" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="158" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="159" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="160" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="161" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="162" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="163" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="164" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="165" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="166" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="167" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="168" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="169" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="170" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="171" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="172" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="173" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="174" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="175" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="176" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="177" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="178" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="179" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="180" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="181" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="182" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="183" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="184" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="185" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="186" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="187" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="188" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="189" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="190" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="191" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="192" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="193" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="194" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="195" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="196" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="197" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="198" irradiance="0"/>
+                    <SpectralIrradianceValue Skyl="0" bandNumber="199" irradiance="0"/>
+                </SpectralIrradiance>
+            </nodeIlluminationMode>
+        </DartInputParameters>
+        <DartProduct>
+            <dartModuleProducts>
+                <CommonProducts polarizationProducts="0" radiativeBudgetProducts="0"/>
+                <FluxTrackingModeProducts allIterationsProducts="0"
+                    brfProducts="1" order1Products="0" temperaturePerTrianglePerCell="0">
+                    <BrfProductsProperties brfProduct="1"
+                        centralizedBrfProduct="1" extrapolation="1"
+                        generatePerTypeProduct="0"
+                        horizontalOversampling="1" image="1"
+                        luminanceProducts="0" maximalThetaImages="25.0"
+                        nb_scene="1" pixelToSceneCorrespondences="0"
+                        projection="0" sensorOversampling="1"
+                        sensorPlaneprojection="1" transmittanceImages="0">
+                        <ExpertModeZone_Etalement etalement="1">
+                            <ExpertModeZone_Projection keepNonProjectedImage="0"/>
+                        </ExpertModeZone_Etalement>
+                    </BrfProductsProperties>
+                </FluxTrackingModeProducts>
+            </dartModuleProducts>
+            <maketModuleProducts MNEProducts="0" areaMaketProducts="0"
+                coverRateProducts="0" laiProducts="0" objectGeneration="0"/>
+        </DartProduct>
+        <SensorImageSimulation importMultipleSensors="0"/>
+    </Phase>
+</DartFile>
